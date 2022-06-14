@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: "MyriadProLigh";
+    font-weight: normal;
+    src: url("../font/MYRIADPRO-LIGHT.OTF");
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    font-weight: normal;
+    src: url('../font/MYRIADPRO-REGULAR.OTF');
+}
+
+@font-face {
+    font-family: "MyriadProSemiBold";
+    font-weight: normal;
+    src: url('../font/MYRIADPRO-SEMIBOLD.OTF');
+}
+
+@font-face {
+    font-family: "MyriadProBold";
+    font-weight: normal;
+    src: url('../font/MYRIADPRO-BOLDIT.OTF');
+}
+
+
+:root{
+    --primary1: #15172b;
+    --primary2: #252A41;
+    --customblue: #0026FF;
+    --custompink: #FF3250;
+    --customyellow: #FFBB00;
+    --custompurple: #894FC6;
+    --customdarkblue: #121432;
+    --white: #ffffff;
+    --custmongrey: #707070;
+    --customgreem1: #15D4a1;
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    font-family: "MyriadProRegular";
+    background-color: var(--primary1);
+
+    &::-webkit-scrollbar{
+        display: none;
+        scrollbar-width: 0px;
+    }
+}
